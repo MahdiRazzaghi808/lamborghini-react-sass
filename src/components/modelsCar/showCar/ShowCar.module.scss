@@ -1,0 +1,65 @@
+@mixin media($width) {
+    @media (min-width:$width) {
+        @content;
+    }
+}
+
+.imageWrapper {
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.explanation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    @include media(992px) {
+        flex-direction: row;
+    }
+
+    button {
+        border: 1px solid #c1c1c1;
+        background-color: #fff;
+        cursor: pointer;
+        padding: 1rem 1.5rem;
+        transition: all 0.2s linear;
+        font-size: 0.75rem;
+
+
+        &:hover {
+            background-color: #181818;
+            color: #fff;
+        }
+
+    }
+
+
+
+}

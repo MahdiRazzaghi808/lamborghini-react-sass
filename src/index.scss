@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+
+    svg {
+        cursor: pointer;
+
+        path {
+            transition: all 0.2s linear;
+
+        }
+
+        &:hover path:first-child {
+            fill: #fff;
+        }
+
+        &:hover path:last-child {
+            stroke: #000;
+            fill: #fff;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    padding:0 1rem
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+}

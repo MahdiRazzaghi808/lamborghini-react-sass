@@ -1,0 +1,73 @@
+@mixin media($width) {
+    @media (min-width:$width) {
+        @content;
+    }
+}
+
+.news {
+    margin: 3rem 0 10rem 0;
+}
+
+.news {
+    h2 {
+        font-size: 1rem;
+
+        @include media(400px) {
+            font-size: 1.5rem;
+        }
+
+        @include media(992px) {
+            font-size: 2rem;
+        }
+
+    }
+
+    h4 {
+
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+        @include media(400px) {
+            font-size: 3rem;
+        }
+
+        @include media(992px) {
+            font-size: 5.5rem;
+        }
+
+    }
+
+
+}
+
+
+.newsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem
+}
+
+.button {
+    width: 100%;
+    background-color: #181818;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    transition: all 0.2s linear;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto 0 auto;
+
+    @include media(768px) {
+        width: 13rem;
+    }
+
+     &:hover {
+        background-color: #fff;
+        color: #181818;
+        border: 1px solid #181818;
+    }
+}

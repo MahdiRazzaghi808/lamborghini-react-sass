@@ -1,0 +1,73 @@
+@mixin media($width) {
+    @media (min-width:$width) {
+        @content;
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    @include media(1200px) {
+        flex-direction: row;
+    }
+
+
+    div:nth-child(1) {
+        flex-basis: 50%;
+        width: 100%;
+        height: 15rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+
+
+
+    div:nth-child(2) {
+        flex-basis: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p {
+            margin-bottom: 1rem;
+
+            @include media(1200px) {
+                margin-bottom: 0;
+            }
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+
+        button {
+            display: none;
+            width: fit-content;
+            border: 1px solid #c1c1c1;
+            background-color: #fff;
+            cursor: pointer;
+            padding: 1rem 3rem;
+            transition: all 0.2s linear;
+            font-size: 1rem;
+
+            @include media(1200px) {
+                display: flex;
+            }
+
+            &:hover {
+                background-color: #181818;
+                color: #fff;
+            }
+
+        }
+    }
+
+}

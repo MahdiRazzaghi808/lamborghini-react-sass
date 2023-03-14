@@ -1,0 +1,10 @@
+@mixin media($width) {
+    @media (min-width:$width) {
+        @content;
+    }
+}
+
+.social{
+    color: #fff;
+    display: flex;
+}
