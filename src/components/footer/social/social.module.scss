@@ -4,7 +4,17 @@
     }
 }
 
-.social{
+.social {
     color: #fff;
     display: flex;
+    gap: 1.5rem;
+    font-size: 2rem;
+    flex-wrap: wrap;
+
+    @include media(992px) {
+        font-size: 1.25rem;
+        flex-wrap: nowrap;
+
+    }
+
 }

@@ -9,13 +9,13 @@ export default function ModelsCar() {
             <div className="container">
 
 
-            <h2>MODELS</h2>
+                <h2>MODELS</h2>
 
-<div style={{ width: "80%", margin: "1.5rem 0",overflow:"hidden" }}>
-    <ShowCar />
-</div>
+                <div style={{ width: "80%", margin: "1.5rem 0", overflow: "hidden" }}>
+                    <ShowCar />
+                </div>
             </div>
-            
+
 
         </div>
     )

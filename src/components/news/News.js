@@ -8,9 +8,9 @@ import news3 from "../../asset/news/news3.jpg"
 
 
 const newsArr = [
-    { id: 1, title: "Museo Ducati and Museo Automobili Lamborghini Experience", date: "13 MARCH 2023", image: news1 },
-    { id: 2, title: "Oscars 2023: How the Oscar statues are made", date: "10 MARCH 2023", image: news2 },
-    { id: 3, title: "Lamborghini and Bologna FC: a Lego to celebrate the partnership", date: "9 MARCH 2023", image: news3 }
+    { id: 1, title: "Lamborghini Revuelto Debuts in the U.S.", date: "5 APRIL 2023", image: news1 },
+    { id: 2, title: "The Lamborghini Revuelto Debuts in Sant’Agata", date: "30 MARCH 2023", image: news2 },
+    { id: 3, title: "Lamborghini Revuelto: the first super sports V12 hybrid HPEV", date: "29 MARCH 2023", image: news3 }
 ]
 
 export default function News() {

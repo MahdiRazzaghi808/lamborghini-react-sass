@@ -3,12 +3,20 @@ import styles from "./ShowCar.module.scss"
 
 import car from "../../../asset/cars/car1.svg"
 
+
+
+const carsModel = [
+    { id: 1, title: 'REVUELTO', subtitle: 'FROM NOW ON', button1: '', button2: '', image: '' },
+    { id: 2, title: '', subtitle: '', button1: '', button2: '', image: '' },
+    { id: 3, title: '', subtitle: '', button1: '', button2: '', image: '' },
+]
+
 export default function ShowCar() {
     return (
         <div>
 
             <div className={styles.imageWrapper}>
-            <img src={car} alt="car" />
+                <img src={car} alt="car" />
 
             </div>
 
