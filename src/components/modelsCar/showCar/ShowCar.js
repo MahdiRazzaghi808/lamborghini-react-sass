@@ -27,10 +27,10 @@ export default function ShowCar() {
 
             <div className={styles.imageWrapper}>
             
-{/* <MainPageSlider data={carsModel} state={{stateActive,setStateActive}}/> */}
+                <MainPageSlider data={carsModel} state={{stateActive,setStateActive}}/>
             </div>
 
-<div className="container">
+        <div className="container">
             <div className={styles.explanation}>
                 <div>
                     <h3>{carsModel[stateActive].title}</h3>
