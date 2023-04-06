@@ -4,7 +4,7 @@ import styles from "./newsItem.module.scss"
 const NewsItem = ({ data }) => {
     return (
         <div className={styles.wrapper}>
-            
+
             <div>
                 <img src={data.image} alt="news" />
             </div>
