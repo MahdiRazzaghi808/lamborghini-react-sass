@@ -1,12 +1,29 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from "./header.module.scss"
-import banner from "../../asset/banner/cover1.jpg"
+import bgVideo from "../../asset/banner/bg-video.mp4"
 
 export default function Header() {
+const videoRef=useRef(null)
+
+useEffect(()=>{
+
+    videoRef.current.play()
+
+
+},[])
+
     return (
         <div className={styles.header}>
             <div className='container'>
-                <img src={banner} alt="banner" />
+      
+
+                {/* <video ref={videoRAef} src={bgVideo} loop /> */}
+
+                <video ref={videoRef} loop>
+  <source src={bgVideo} type="video/mp4" />
+</video>
+
+
 
                 <div className={styles.wrapper}>
 

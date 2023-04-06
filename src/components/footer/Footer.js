@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className={styles.social}>
 
                         <ul>
-                            {linkArr.map(item => <li ket={item.id}><a href={item.href}>{item.title}</a></li>)}
+                            {linkArr.map(item => <li key={item.id}><a href={item.href}>{item.title}</a></li>)}
 
                         </ul>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div class={styles.explain}>
+                    <div className={styles.explain}>
                         The consumption and emissions values in the website refer to your geographical IP. This value might be unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise. If you believe you are incorrectly geolocalized, contact your dealer to get valid consumption and emissions information in your area.
                     </div>
 

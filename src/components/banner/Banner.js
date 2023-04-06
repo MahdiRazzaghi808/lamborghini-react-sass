@@ -11,7 +11,7 @@ const Banner = () => {
                 <div className={styles.wrapper}>
                     <div className={styles.explanation}>
                         <p>DEALER LOCATOR</p>
-                        <p id={styles.name}>FIND YOUR <p>COUNTRY DEALER</p></p>
+                        <div id={styles.name}>FIND YOUR <p>COUNTRY DEALER</p></div>
                         <button className='btn'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="49.464" height="57.116" viewBox="0 0 49.464 57.116">
                                 <g id="Group_2" data-name="Group 2" transform="translate(-1624.5 -188.5)">

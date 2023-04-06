@@ -7,14 +7,13 @@ export default function ModelsCar() {
     return (
         <div className={styles.models}>
             <div className="container">
-
-
                 <h2>MODELS</h2>
-
-                <div style={{ width: "80%", margin: "1.5rem 0", overflow: "hidden" }}>
+                </div>
+                
+                <div>
                     <ShowCar />
                 </div>
-            </div>
+         
 
 
         </div>
