@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lamborghini-react-sass/static/css/main.0cb6c125.css",
+    "main.js": "/lamborghini-react-sass/static/js/main.337423d9.js",
+    "static/media/bg-video.mp4": "/lamborghini-react-sass/static/media/bg-video.5acad142dace1916004f.mp4",
+    "static/media/cover2.jpg": "/lamborghini-react-sass/static/media/cover2.67c1027ae30de75876d0.jpg",
+    "static/media/logo.svg": "/lamborghini-react-sass/static/media/logo.d235b6f075545e02d1e5664a944b6416.svg",
+    "static/media/news1.jpg": "/lamborghini-react-sass/static/media/news1.b3b4b5ee8c9f1f5fb185.jpg",
+    "static/media/news2.jpg": "/lamborghini-react-sass/static/media/news2.e2ec61dc46e0c839b9e0.jpg",
+    "static/media/car3.png": "/lamborghini-react-sass/static/media/car3.cff8e7e19bf70530de46.png",
+    "static/media/news3.jpg": "/lamborghini-react-sass/static/media/news3.80c40b0d67d253fb6739.jpg",
+    "static/media/car2.png": "/lamborghini-react-sass/static/media/car2.b0fd264e098f595abddc.png",
+    "static/media/car1.png": "/lamborghini-react-sass/static/media/car1.8b02eee39efc0deb10b3.png",
+    "static/media/chat.svg": "/lamborghini-react-sass/static/media/chat.7041c60d5cd0691c5344f0bcf4d608f1.svg",
+    "index.html": "/lamborghini-react-sass/index.html",
+    "static/media/search.svg": "/lamborghini-react-sass/static/media/search.8f6521ba57270b0e17d10197cac05957.svg",
+    "static/media/menu.svg": "/lamborghini-react-sass/static/media/menu.37b0170cbc9ab1b4e10307e650008f06.svg",
+    "main.0cb6c125.css.map": "/lamborghini-react-sass/static/css/main.0cb6c125.css.map",
+    "main.337423d9.js.map": "/lamborghini-react-sass/static/js/main.337423d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb6c125.css",
+    "static/js/main.337423d9.js"
+  ]
+}
