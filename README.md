@@ -1,4 +1,4 @@
-# [Shop](https://mahdirazzaghi808.github.io/lamborghini-react-sass/)
+# [Lamborghini](https://mahdirazzaghi808.github.io/lamborghini-react-sass/)
 
 <p align="left">
   <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img
